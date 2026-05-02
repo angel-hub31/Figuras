@@ -8,17 +8,15 @@ public class TestFiguras {
 
 	public static void main(String[] args) {
 		//instanciamos los objetos
-		Figuras f=new Figuras();
-		f.setNombre("Circulo");
-		f.setColor("Blanco");
+		//despues de corregir errores en las clses
+		//ahora podemos pasar directamente las descripciones en cada objeto
+		Figuras f=new Figuras("Circulo","Blanco");
 		
-		Cuadrado c=new Cuadrado();
-		c.setNombre("Cuadrado");
-		c.setColor("Azul");
+		Cuadrado c=new Cuadrado("Cuadrado","Azul");
 		
-		Triangulo t=new Triangulo();
-		t.setNombre("Triangulo");
-		t.setColor("Amarillo");
+		
+		Triangulo t=new Triangulo("Triangulo","Amarillo");
+		
 		
 		System.out.println(f);
 		System.out.println(c);
