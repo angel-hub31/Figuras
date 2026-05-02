@@ -1,6 +1,6 @@
 package com.krakedev.figuras;
 
-public class Graficador {
+public class Graficador  {
     
     // Creamos un metodo graficar
     public void graficar(Figuras figura) {
