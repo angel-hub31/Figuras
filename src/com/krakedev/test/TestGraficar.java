@@ -16,7 +16,7 @@ public class TestGraficar {
 		
 		Cuadrado c=new Cuadrado("Cuadrado","Azul",8);
 		
-		Triangulo t=new Triangulo("Triangulo","Amarillo");
+		Triangulo t=new Triangulo("Triangulo","Amarillo",6,5);
 		
 		Rectangulo r=new Rectangulo("Rectangulo","Rojo",10,5);
 		

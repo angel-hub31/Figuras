@@ -14,6 +14,10 @@ public class Rectangulo extends Figuras {
 	public int calcularPerimetro() {
 		return (2 * base) + (2 * altura);
 	}
+	@Override
+	public double calcularArea() {
+		return (double) base*altura;
+	}
 
 	public int getBase() {
 		return base;
