@@ -14,11 +14,11 @@ public class TestGraficar {
 		
 		Figuras f = new Figuras("Circulo","Blanco");
 		
-		Cuadrado c=new Cuadrado("Cuadrado","Azul");
+		Cuadrado c=new Cuadrado("Cuadrado","Azul",8);
 		
 		Triangulo t=new Triangulo("Triangulo","Amarillo");
 		
-		Rectangulo r=new Rectangulo("Rectangulo","Rojo");
+		Rectangulo r=new Rectangulo("Rectangulo","Rojo",10,5);
 		
 		System.out.println(f);
 		System.out.println(c);

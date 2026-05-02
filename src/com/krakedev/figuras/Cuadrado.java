@@ -15,5 +15,17 @@ public class Cuadrado extends Figuras {
 	public int calcularPerimetro() {
 		return 4*lado;
 	}
+
+	public int getLado() {
+		return lado;
+	}
+
+	public void setLado(int lado) {
+		this.lado = lado;
+	}
+	
+
+	
+	
 	
 }
