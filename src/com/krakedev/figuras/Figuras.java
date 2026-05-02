@@ -40,7 +40,7 @@ public abstract class Figuras {
 		return "Figuras: nombre=" + nombre + ", color=" + color;
 	}
 	
-	
+	//Métodos abstractos: No tienen cuerpo { }, terminan en   ;
 	public abstract int calcularPerimetro();
 	
 	public abstract double calcularArea();
