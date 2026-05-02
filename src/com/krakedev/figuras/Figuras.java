@@ -1,6 +1,6 @@
 package com.krakedev.figuras;
 
-public class Figuras {
+public abstract class Figuras {
 	// atributos privados
 	private String nombre;
 	private String color;
@@ -41,12 +41,8 @@ public class Figuras {
 	}
 	
 	
-	public int calcularPerimetro() {
-		return 0;
-	}
+	public abstract int calcularPerimetro();
 	
-	public double calcularArea() {
-		return 0;
-	}
+	public abstract double calcularArea();
 
 }
