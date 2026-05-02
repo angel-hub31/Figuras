@@ -12,7 +12,7 @@ public class TestGraficar {
 		// instanciamos los objetos 
 		Graficador g= new Graficador();
 		
-		Figuras f = new Figuras("Circulo","Blanco");
+		Figuras f = new Cuadrado("Circulo","Blanco",10);
 		
 		Cuadrado c=new Cuadrado("Cuadrado","Azul",8);
 		

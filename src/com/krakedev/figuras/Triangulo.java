@@ -16,6 +16,12 @@ public class Triangulo extends Figuras{
 	@Override
 	public double calcularArea() {
 	    return (double) (base * altura) / 2;
+	    
+	}
+	
+	@Override
+	public int calcularPerimetro() {
+	    return base * 3; 
 	}
 
 }

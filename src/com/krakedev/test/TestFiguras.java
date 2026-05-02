@@ -10,7 +10,7 @@ public class TestFiguras {
 		//instanciamos los objetos
 		//despues de corregir errores en las clses
 		//ahora podemos pasar directamente las descripciones en cada objeto
-		Figuras f=new Figuras("Circulo","Blanco");
+		Figuras f=new Cuadrado("Circulo","Blanco",10);
 		
 		Cuadrado c=new Cuadrado("Cuadrado","Azul",5);
 		
