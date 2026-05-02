@@ -9,7 +9,7 @@ public class Rectangulo extends Figuras {
 		this.base = base;
 		this.altura = altura;
 	}
-
+	@Override
 	// creamos el metodo calcularPerimetro
 	public int calcularPerimetro() {
 		return (2 * base) + (2 * altura);

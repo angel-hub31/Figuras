@@ -7,8 +7,8 @@ public class TestPerimetro {
 
 	public static void main(String[] args) {
 		
-		Cuadrado c=new Cuadrado();
-		Rectangulo r=new Rectangulo();
+		Cuadrado c=new Cuadrado("Cuadrado","Azul",8);
+		Rectangulo r=new Rectangulo("Rectangulo","Rojo",5,4);
 		
 		int perimetroC=c.calcularPerimetro();
 		int perimetroR=r.calcularPerimetro();

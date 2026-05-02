@@ -11,6 +11,7 @@ public class Cuadrado extends Figuras {
 		this.lado=lado;
 	}
 	
+	@Override
 	//creamos metodo calcularPerimetro
 	public int calcularPerimetro() {
 		return 4*lado;

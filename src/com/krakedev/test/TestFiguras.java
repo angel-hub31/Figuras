@@ -12,7 +12,7 @@ public class TestFiguras {
 		//ahora podemos pasar directamente las descripciones en cada objeto
 		Figuras f=new Figuras("Circulo","Blanco");
 		
-		Cuadrado c=new Cuadrado("Cuadrado","Azul");
+		Cuadrado c=new Cuadrado("Cuadrado","Azul",5);
 		
 		
 		Triangulo t=new Triangulo("Triangulo","Amarillo");
