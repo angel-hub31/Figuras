@@ -22,7 +22,7 @@ public class Figuras {
 	// sobreescritura del metodo toString
 	@Override
 	public String toString() {
-		return "Figuras [nombre=" + nombre + ", color=" + color + "]";
+		return "Figuras: nombre=" + nombre + ", color=" + color ;
 	}
 	
 	
